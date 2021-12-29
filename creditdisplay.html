@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Display Page</title>
+<link rel="stylesheet" href="creditdisplay.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/css/bootstrap-select.min.css">
+</head>
+<body>
+<div id="header" align="center"> Credit Form</div>
+<div class="form-content">
+<form>
+  <table align="center" width="400" border="0">
+	  <tr>
+      <td>Select Month And Year</td> 
+      <td><div  class="input-group"><input type="month" name="date"></div></td> 
+    </tr>
+	  <tr>
+      <td>Select Animal</td>
+      <td>
+        <div class="multi_select_box">
+          <select class="multi_select w-100" multiple data-selected-text-format="count>3">
+            <option>Chicken</option>
+            <option>Cow</option>
+            <option>Sheep</option>
+            <option>Goat</option>
+            <option>Rabbit</option>
+            <option>Pig</option>
+          </select>
+        </div>
+      </td>
+    </tr>
+
+    <td>
+      <div  class="input-group"><input type="text"></div>
+    </td>
+    <td>
+
+      <div  class="input-group"><input type="button" value="Submit"></div>
+    </td> 
+    <a href="creditform.html">
+    <button type="button">Entry</button></a>
+  </table>
+</form>
+</div>
+<div class="display-table" href="display.php"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script> 
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/js/bootstrap-select.min.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>

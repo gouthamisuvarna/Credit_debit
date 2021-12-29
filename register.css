@@ -1,0 +1,108 @@
+body{
+    margin:0;
+    padding:0;
+    background-image:url(https://m.economictimes.com/photo/imgsize-1334288,msid-73836007,width-600,height-450/zero-budget-farming-may-not-be-a-good-move-for-fertiliser-companies-experts.jpg);
+    background-size:cover;
+    font-family:Poppins;
+}
+.container{
+    width:400px;
+    height:550px;
+    color:#000;
+    top:50%;
+    left:50%;
+    padding:40px 30px;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing:border-box;
+    box-shadow:8px 8px 50px #000;
+}
+h1{
+    margin:0;
+    padding:0;
+    font-weight:bold;
+    font-size:22px;
+    color:#fff;
+    text-align:center;
+    margin-bottom:8%;
+    font-family: sans-serif;
+}
+.container input{
+    width:100%;
+    margin-bottom:20px;
+}
+.container input[type=text],.container input[type=password]{
+    border:none;
+    border-bottom:1px solid #ddd;
+    background:transperent;
+    outline:none;
+    height:30px;
+    font-size:16px;
+    opacity:1;
+    color:rgb(5, 5, 5);
+}
+.container input[type=email]{
+    width:70%;
+    border:none;
+    border-bottom:1px solid #ddd;
+    background:transperent;
+    outline:none;
+    height:30px;
+    font-size:16px;
+    opacity:1;
+    color:rgb(5, 5, 5);
+
+}
+button{
+    float:right;
+    width:25%;
+    height:34px
+    
+}
+.container input[type=number]{
+    width:70%;
+    border:none;
+    border-bottom:1px solid #ddd;
+    background:transperent;
+    outline:none;
+    height:30px;
+    font-size:16px;
+    opacity:1;
+    color:rgb(5, 5, 5);
+
+}
+.container .btn input[type="submit"]{
+    border:none;
+    outline:none;
+    height:40px;
+    background:#95a3b6;
+    color:#fff;
+    font-size:14px;
+    font-weight:bold;
+}
+.container .btn input[type="submit"]:hover{
+    background-color: rgb(45, 50, 54);
+    cursor:pointer;
+  }
+.bottom-text{
+    color:#fff;
+}
+.bottom-text input{
+    width:10%;
+    float:left;
+}
+.signin{
+    text-align:center;
+    height:30px;
+    padding-top: 10%;
+}
+
+#overlay-area{
+    position:absolute;
+    background-color:rgba(0,0,0,0.4);
+    z-index:-5;
+    height:100%;
+    width:100%;
+    top:0;
+    bottom:0;
+}

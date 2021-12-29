@@ -1,0 +1,80 @@
+body{
+	padding: 0;
+	border: 0;
+	background:lightblue !important;
+}
+#header{
+	background:#00a2d1;
+	width:39%;
+	height:50px;
+	color:#fff;
+	font-size:36px;
+}
+.form-content{ 
+	font-family: 'Open Sans Condensed', arial, sans;
+	width:500px;
+	padding: 30px;
+	background: #FFFFFF;
+	margin: 10px ;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	float: left;
+}
+.input-group{
+ 	margin: 10px 0px 10px 0px;
+}
+
+.multi_select_box{
+    width:200px;
+    margin:30px auto;
+}
+.multi_select_box select{
+    width:30%;
+} 
+.multi_select_box button{
+    background-color:#00a2d1 !important;
+    color:#fff !important;   
+}
+.input-group input{
+	height:30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size:16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+.input-group select{ 
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=button]{
+	width:100px;
+	height:40px;
+	margin-bottom: 50px;
+	margin: auto;
+	background: #2A88AD;
+	color:white;
+}
+button{
+	padding:10px;
+    width:100px;
+ 	font-size:15px;
+ 	color:#FFFFFF;
+ 	background: #2A88AD;
+    border-radius: 5px;
+    border: none;
+}
+.display-table{
+    background-color: #00a2d1;
+    height: 500px;
+	width:50%;
+	float: right;
+	padding: 30px !important;
+	margin-right: 70px;
+	margin-bottom: 10px !important;
+}
